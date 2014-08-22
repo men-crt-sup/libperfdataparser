@@ -15,7 +15,7 @@ AC_PROG_LIBTOOL
 
 # Checks for libraries.
 
-AC_CHECK_LIB([json0], [json_object_object_get], [], 	[AC_MSG_FAILURE([Could not find usable JSON-C library])], [])
+AC_CHECK_LIB([json-c], [json_object_object_get], [], 	[AC_MSG_FAILURE([Could not find usable JSON-C library])], [])
 
 # Checks for header files.
 AC_CHECK_HEADERS([limits.h stdlib.h string.h])
