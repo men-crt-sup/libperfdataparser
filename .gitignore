@@ -1,8 +1,15 @@
 *~
+*.o
+*.la
+*.a
+*.so
 m4/*
 config/*
 Makefile.in
+Makefile
 autom4te.cache
 aclocal.m4
+config.status
 configure
 config.log
+libtool
